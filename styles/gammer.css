@@ -1,0 +1,240 @@
+/* work sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* logo sextion */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid tomato; */
+    min-height: 50px;
+    padding: 20px 240px;
+    box-shadow: 0px 4px 30px 0px grey;
+    background: #fff;
+    
+}
+.logo-container{
+    display: flex;
+    
+}
+.logo-container img{
+    width: 87px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+
+}
+.logo-container h1{
+    font-size: 50px;
+    margin-top: 20px;
+    
+    
+}
+span{
+    color: rgb(234, 37, 102);
+}
+/* li section */
+.nav-item-container ul{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-item-container li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-item-container a{
+    text-decoration: none;
+    color: black;
+    
+}
+.btn-primary{
+    border: none;
+    padding: 10px 20px;
+    /* align-items: center; */
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    width: 800;
+}
+.icon-youtube{
+    height: 24px;
+   align-items: center;
+}
+.icon-tiktok{
+    width: 24px;
+    height: 24px;
+    align-items: center;
+}
+/* banner section design */
+.banner-container{
+    /* border: 2px solid tomato; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 50px auto 0;
+    /* gap: 20px; */
+    max-width: 1440px;
+    min-height: 50px;
+    padding: 50px;
+}
+.banner-content{
+    width: 50%;
+    /* height: 500; */
+    /* padding: 30px 140px; */
+    /* border: 2px solid gray; */
+}
+.banner-img{
+    width: 50%;
+    /* height: 600; */
+    /* padding: 0px 140px; */
+    /* border: 2px solid blue; */
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-content h1{
+    background-image: linear-gradient(to bottom, #F948B2,rgb(24, 24, 240));
+    color: transparent;
+    -webkit-background-clip: text;
+
+   
+
+}
+.banner-content p{
+    font-size: 18px;
+}
+
+#primary{
+    background-color: pink;
+}
+#secondary{
+    background-color: skyblue;
+}
+/* funny vedio section design */
+.funny-vedio-container{
+    /* border: 2px solid tomato; */
+    
+    
+}
+.card-content{
+    display: flex;
+    gap: 10px;
+    
+}
+.funny-vedio-content{
+    /* border: 2px solid gold; */
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 4px 30px 0px grey;
+}
+.card-img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.card-description
+{
+    padding-left: 45px;
+}
+/* play vedio section design */
+.play-vedio-container{
+    /* border: 2px solid tomato; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.play-inner-img{
+    width: 318.5px;
+    height: 365.08px;
+    margin: 0;
+    
+    /* transform: rotate(80deg), scale(1.8), translateX(-450px); */
+    /* transform: translateY(-350px); */
+    padding-right: 490px;
+    /* border: 2px solid tomato; */
+    
+    
+}
+.play-inner-img img{
+    transform: rotate(80deg), scale(1.8), translateX(-450px); 
+     transform: translateY(-350px);
+   /* transform: rotateX('angle') translateZ(-200px); */
+   margin-left: 500px;
+}
+.play-content{
+    margin-left: 150px;
+    margin-top: 250px;
+}
+#play-title{
+    background-image: linear-gradient(to bottom, #F948B2,rgb(24, 24, 240));
+    color: transparent;
+    -webkit-background-clip: text;  
+}
+/* icon style */
+.icon-description{
+    font-size: 16px;
+}
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    margin: 30px;
+    padding: 30px;
+    padding-left: 80px;
+    gap: 7px;
+}
+.icon-content 
+{
+ margin-top: 30px;
+
+}
+.icon-container :hover{
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    color: blue;
+}
+/* footer style */
+.footer{
+    background-color: rgb(7, 3, 30);
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+#logo {
+    display: flex;
+
+    justify-content: center;
+}
+.footer-logo-container img{
+    width: 87px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+
+}
+.footer-description{
+    margin-top: 20px;
+}
+
+.span{
+    color: white;
+}
+.icon-logo{
+    margin-top: 20px;
+}
